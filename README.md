@@ -39,7 +39,6 @@ Contara con los siguientes query params:
 
 A su vez, contamos con un endpoint que permite la carga de colaboradores desde el sistema principal, mediante un POST a la URL `/colaboradores`.
 
-<<<<<<< HEAD
 ## Guía de despliegue
 
 ### Requisitos
@@ -65,9 +64,3 @@ A su vez, contamos con un endpoint que permite la carga de colaboradores desde e
 La documentación de consumo de la API, una vez ejecutado el servicio, se encuentra en el path `/swagger-ui.html`. OpenAPI es una especificación para describir APIs RESTful, y Swagger es una herramienta que permite visualizar y probar APIs que cumplen con esta especificación. Usando un archivo .yaml en el que se describe la API, Swagger genera una interfaz gráfica que permite interactuar con la API de forma sencilla. A su vez, distintas bibliotecas permiten generar los DTO de la API a partir de este archivo, y viceversa. Los invitamos a que exploren esta opción para ahorrarse el trabajo de hacer los DTO a mano, esto se puede hacer en Java con el plugin de Maven `openapi-generator-maven-plugin` [https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator-maven-plugin](https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator-maven-plugin). 
 
 El archivo que describe a la api se encuentra en `src/main/resources/servicio-api-docs.yaml`
-=======
-## Pasos para deploy local
-1. Clonar el repositorio
-2. Correr el jar con el siguiente comando: `java -jar reconocimientos-extra-0.0.1-SNAPSHOT.jar`
-3. Por cualquier duda, acceder a la URL `http://localhost:8080/swagger-ui.html` para ver la documentación de la API
->>>>>>> origin/main
