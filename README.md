@@ -56,7 +56,7 @@ A su vez, contamos con un endpoint que permite la carga de colaboradores desde e
        DATASOURCE_PASSWORD=root;
        DATASOURCE_URL=jdbc:mysql://localhost:3306/servicio-recomendador?createDatabaseIfNotExist=true;
        DATASOURCE_USERNAME=root;
-       JPA_HIBERNATE_DDL_AUTO=update
+       JPA_HIBERNATE_DDL_AUTO=update;
        ```
    + En caso de que el motor de base de datos no soporte `createDatabaseIfNotExist`, se debe crear la base de datos manualmente antes de ejecutar.
 
